@@ -1,0 +1,29 @@
+{
+  "name": "huayu",
+  "version": "1.0.0",
+  "description": "huayu",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1","start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenboheng41/huayu.git"
+  },
+  "keywords": [
+    "花店"
+  ],
+  "author": "陈波衡",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenboheng41/huayu/issues"
+  },
+  "homepage": "https://github.com/chenboheng41/huayu#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "qs": "^6.7.0"
+  }
+}
