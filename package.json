@@ -2,9 +2,10 @@
   "name": "huayu",
   "version": "1.0.0",
   "description": "huayu",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1","start":"node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +25,8 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "mysql": "^2.16.0",
-    "qs": "^6.7.0"
+    "npm": "^6.9.0",
+    "qs": "^6.7.0",
+    "start": "^5.1.0"
   }
 }
